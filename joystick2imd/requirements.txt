@@ -1,0 +1,4 @@
+retry_decorator
+numpy
+pygame
+pyserial
