@@ -1,3 +1,4 @@
+# Copyright (c) 2013-2018 Hanson Robotics, Ltd, all rights reserved. 
 # pyimdr4
 
 Python module to control the Hangfa IMDR4 Servo Controller on the Discovery Q1 robot base via it's UART and an externally connected PS3 Move controller. Joystick and trigger analog values are mapped to the omniwheel base according to [this paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.1083&rep=rep1&type=pdf).

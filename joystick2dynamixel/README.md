@@ -1,3 +1,4 @@
+# Copyright (c) 2013-2018 Hanson Robotics, Ltd, all rights reserved. 
 # joystick2dynamixel
 
 Simple python scripts to map joystick input to dynamixel servos for movement of robotics platform. Launch script is for internal deployment to Raspberry Pi.
