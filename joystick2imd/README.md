@@ -1,4 +1,3 @@
-# Copyright (c) 2013-2018 Hanson Robotics, Ltd, all rights reserved. 
 # pyimdr4
 
 Python module to control the Hangfa IMDR4 Servo Controller on the Discovery Q1 robot base via it's UART and an externally connected PS3 Move controller. Joystick and trigger analog values are mapped to the omniwheel base according to [this paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.1083&rep=rep1&type=pdf).
@@ -37,3 +36,4 @@ Baudrate is 9600. The general format of one message to the servo controller is:
     UART_MSG_PACKAGE_ENDCHAR (0x0D)
 
 To set the speed of four motors from four floats (-1...1), first they need to be multiplied by 10000 so that they become signed int16's with the range -10000...10000. After, each of these 16 bit numbers get split into two int8's for transmission, so that Speed Buffer is an array of int8 numbers with length 8.
+###### Copyright (c) 2013-2018 Hanson Robotics, Ltd, all rights reserved. 
